@@ -102,7 +102,7 @@
     /* MARKETING CONTENT
     -------------------------------------------------- */
 
-    /* Center align the text within the three columns below the carousel */
+    /* SPAN3 */
     .marketing .span3 {
       text-align: center;
     }
@@ -114,7 +114,7 @@
       margin-right: 10px;
     }
 
-    /* Center align the text within the three columns below the carousel */
+    /* SPAN6 */
     .marketing .span6 {
       text-align: center;
     }
@@ -122,6 +122,30 @@
       font-weight: normal;
     }
     .marketing .span6 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    
+    /* SPAN4 */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    
+    /* SPAN12 */
+    .marketing .span12 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span12 p {
       margin-left: 10px;
       margin-right: 10px;
     }
@@ -227,6 +251,10 @@
       }
 
       .marketing .span3 + .span3 {
+        margin-top: 40px;
+      }
+      
+      .marketing .span4 + .span4 {
         margin-top: 40px;
       }
       
